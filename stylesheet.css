@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(127deg, #00dbde 0%, #fc00ff 100%);
 }
+
 #navCont {
   display: flex;
   justify-content: center;
@@ -8,6 +9,7 @@ body {
   height: 100px;
   border-bottom: 3px solid rgb(210, 172, 219);
 }
+
 .sectionList {
   display: flex;
   justify-content: center;
@@ -15,6 +17,7 @@ body {
   margin-top: 75px;
   width: 100%;
 }
+
 .list {
   background-color: rgb(40, 91, 121);
   border-radius: 25px;
@@ -26,24 +29,25 @@ body {
   margin: 50px;
   border: 1px solid rgb(210, 172, 219);
 }
+
 i {
   font-size: small;
 }
+
 button {
-  background-image: linear-gradient(
-    to right,
-    #314e55 0%,
-    #26a0da 51%,
-    #314755 100%
-  );
+  background-image: linear-gradient(to right,
+      #314e55 0%,
+      #26a0da 51%,
+      #314755 100%);
 }
+
 .listContainer {
   min-height: 200px;
   font-size: 21px;
-  margin-top: 30px;
-  margin-left: 10%;
+  margin: 5px 7% 5px 7%;
   text-align: left;
 }
+
 .button {
   text-align: center;
   font-size: 21px;
@@ -58,12 +62,14 @@ button {
   display: block;
   border: 2px solid rgb(210, 172, 219);
 }
+
 button:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
   box-shadow: 0 0 12px rgb(238, 238, 238);
 }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -78,10 +84,26 @@ footer {
   text-align: center;
   padding-top: 10px;
 }
+
 #page-container {
   position: relative;
   min-height: 100vh;
 }
+
 #spanFoot {
   margin-left: 40%;
+}
+.listHead {
+  display: flex;
+}
+.permItem {
+  text-align: center;
+  display: none;
+  font-size: 21px;
+}
+#showButton {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: fit-content;
+  font-size: 15px;
 }
